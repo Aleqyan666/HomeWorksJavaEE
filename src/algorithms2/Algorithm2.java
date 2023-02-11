@@ -1,4 +1,4 @@
-package Algorithms2;
+package algorithms2;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -24,11 +24,11 @@ public class Algorithm2 {
 //    }
 
     public static void isPrime(int number) {
-        System.out.println("if it outputs nothing in the console the number is prime");
+        int count = 0;
         if (number > 2) {
-            for (int i = 2; i < number; i++) {
+            for (int i = 2; i < number/2; i++) {
                 if (number % i == 0) {
-                    System.out.println("Your number is composite");
+                    count++;
                 }
             }
 
@@ -126,7 +126,6 @@ public class Algorithm2 {
         }
     }
 
-
     public static void printRevAscendingAsterisk(int quantity) {
         char asterisk = '*';
         String line = "";
@@ -166,7 +165,6 @@ public class Algorithm2 {
         }
 
     }
-
 //    public static void inputCounter(int LIMIT) {
 //        Scanner myScanner = new Scanner(System.in);
 //        int number = myScanner.nextInt();
@@ -206,6 +204,7 @@ public class Algorithm2 {
     public static void main(String[] args) {
 
 //        inputCounter(5);
+        isPrime(997);
         computeLogarithmOf2(10);
         printArmstrongNumbers(500);
 
@@ -215,7 +214,6 @@ public class Algorithm2 {
 
         fractionsSum(5);
         multiplicationTable(5);
-        isPrime(14);
         reverseNumber(280766811);
 
             Scanner scanner = new Scanner(System.in);

@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 import java.util.*;
 
@@ -215,7 +215,7 @@ public class ArrayUtil {
               reserve = T[i];
               myList.add(T[i]);
               row = myList.size();
-              System.out.println(myList);
+              System.out.println(myList + " LIST SIZE : " + row);
           }else{
               reserve = 0; row = 0;
               myList.clear();
@@ -247,7 +247,7 @@ public class ArrayUtil {
 
        //TODO subarraysWith3Elements();
 
-       decimalBinaryConversion();
+
         longestIncrease();
         reverseAboveDiagonal();
         sumOfMatrix();
@@ -258,5 +258,6 @@ public class ArrayUtil {
         reverseElementsOrder();
         printingLargestElement();
         printingSmallestElement();
+        decimalBinaryConversion();
     }
 }

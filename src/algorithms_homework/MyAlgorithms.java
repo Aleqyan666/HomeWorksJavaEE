@@ -1,6 +1,5 @@
-package AlgorithmsHomeWork;
+package algorithms_homework;
 import java.util.Random;
-import java.util.Scanner;
 
 public class MyAlgorithms {
     /**
